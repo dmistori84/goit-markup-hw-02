@@ -2,6 +2,8 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --title-color: #212121;
+  --under-color: #757575;
 }
 .list {
   list-style: none;
@@ -44,7 +46,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .header-contacts {
@@ -54,10 +56,10 @@ body {
   letter-spacing: 0.02em;
 }
 .header-contact-mail {
-  color: #757575;
+  color: var(--under-color);
 }
 .header-contact-tel {
-  color: #757575;
+  color: var(--under-color);
 }
 .heading {
   font-weight: 900;
@@ -88,13 +90,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-color);
 }
 .features-list-item-description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--under-color);
 }
 .implementation-header {
   font-weight: 700;
@@ -102,7 +104,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .team-header {
   font-weight: 700;
@@ -110,7 +112,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .team-list-item-header {
   font-weight: 500;
@@ -118,14 +120,14 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .team-list-profession {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--under-color);
 }
 .adds-link-address {
   font-style: normal;
@@ -173,18 +175,18 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
   background: #f5f4fa;
 }
 .cards-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 .cards-relation {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--under-color);
 }
