@@ -25,13 +25,6 @@ body {
   color: var(--accent-color);
 }
 
-.second-name {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -41,10 +34,10 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--accent-color);
 }
-.header span {
+.header .second-name {
   color: var(--title-color);
 }
-.footer span {
+.footer .second-name {
   color: var(--other-color);
 }
 .nav-link {
@@ -61,12 +54,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-contact-mail {
-  color: var(--under-color);
-}
+.header-contact-mail,
 .header-contact-tel {
   color: var(--under-color);
 }
+
 .heading {
   font-weight: 900;
   font-size: 44px;
