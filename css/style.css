@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --title-color: #212121;
   --under-color: #757575;
+  --other-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -22,13 +23,14 @@ body {
 .header-contact-tel:focus {
   color: var(--accent-color);
 }
-.first-name {
+/*.first-name {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-}
+}*/
+
 .second-name {
   font-weight: 700;
   font-size: 26px;
@@ -38,9 +40,19 @@ body {
 }
 .logo {
   font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--accent-color);
 }
-
+.header span {
+  color: var(--title-color);
+}
+.footer span {
+  color: var(--other-color);
+}
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -68,7 +80,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--other-color);
 }
 .button {
   font-weight: 700;
@@ -78,7 +90,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--other-color);
   background-color: var(--accent-color);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -135,7 +147,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--other-color);
 }
 .adds-link-mail {
   font-style: normal;
@@ -157,16 +169,16 @@ body {
 .footer {
   background: #2f303a;
 }
-.name-white {
+/*.name-white {
   color: #ffffff;
-}
+}*/
 
 /*   Стили для портфолио   */
 
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: var(--accent-color);
-  color: #fff;
+  color: var(--other-color);
   cursor: pointer;
 }
 .nav-btn {
