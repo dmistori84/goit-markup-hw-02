@@ -5,6 +5,7 @@
   --title-color: #212121;
   --under-color: #757575;
   --other-color: #ffffff;
+  --bg-hf: #2f303a;
 }
 .list {
   list-style: none;
@@ -159,7 +160,7 @@ body {
 }
 .hero,
 .footer {
-  background: #2f303a;
+  background: var(--bg-hf);
 }
 
 /*   Стили для портфолио   */
