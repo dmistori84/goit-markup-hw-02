@@ -6,6 +6,7 @@
   --under-color: #757575;
   --other-color: #ffffff;
   --bg-hf: #2f303a;
+  --color-adds: rgba(255, 255, 255, 0.6);
 }
 .list {
   list-style: none;
@@ -126,30 +127,23 @@ body {
   letter-spacing: 0.03em;
   color: var(--under-color);
 }
+
+/*=========Стилизируем футер=============*/
+
+.adds-link-mail,
+.adds-link-tel,
 .adds-link-address {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--color-adds);
+}
+.adds-link-address {
   color: var(--other-color);
 }
-.adds-link-mail {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.adds-link-tel {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .hero,
 .footer {
   background: var(--bg-hf);
